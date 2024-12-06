@@ -6,6 +6,6 @@ import { ghPages } from 'vite-plugin-gh-pages';
 export default defineConfig({
   plugins: [react(), ghPages()],
   build: {
-    chunkSizeWarningLimit: 1000, // Set the warning limit to 1000 kB
+    chunkSizeWarningLimit: 2000, // Set the warning limit to 1000 kB
   },
 })
