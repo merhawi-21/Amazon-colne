@@ -11,7 +11,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 2000, // Set the warning limit to 1000 kB
     rollupOptions: {
       input: './index.html', // Specify your entry point
-      outDir: 'dist',
     },
+    outDir: 'dist',
   },
 });
